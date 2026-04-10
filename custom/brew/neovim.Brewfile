@@ -1,0 +1,8 @@
+brew "neovim"
+brew "rg"
+brew "fd"
+brew "git"
+brew "unzip"
+brew "tree-sitter"
+brew "tree-sitter-cli"
+
