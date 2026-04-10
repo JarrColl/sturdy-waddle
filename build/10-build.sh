@@ -45,7 +45,9 @@ echo "::group:: Install Packages"
 
 # Install packages using dnf5
 # Example: dnf5 install -y tmux
-
+dnf5 install -y xwayland-satellite xdg-desktop-portal-gnome gnome-keyring mate-polkit
+dnf5 install -y mako wl-clipboard grim swappy rofi-wayland wlsunset swaybg blueman-applet
+dnf5 install -y niri
 # Example using COPR with isolated pattern:
 # copr_install_isolated "ublue-os/staging" package-name
 
