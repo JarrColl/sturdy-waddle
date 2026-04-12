@@ -5,4 +5,3 @@ brew "git"
 brew "unzip"
 brew "tree-sitter"
 brew "tree-sitter-cli"
-

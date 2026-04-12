@@ -1,0 +1,4 @@
+brew "zoxide"
+brew "tmux"
+brew "btop"
+
