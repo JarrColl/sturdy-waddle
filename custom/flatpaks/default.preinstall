@@ -4,8 +4,8 @@
 # See: https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-preinstall
 
 # Web Browsers
-# [Flatpak Preinstall org.mozilla.firefox]
-# Branch=stable
+[Flatpak Preinstall app.zen_browser.zen]
+Branch=stable
 
 # GNOME Core Applications
 [Flatpak Preinstall org.gnome.Calculator]
@@ -23,7 +23,7 @@ Branch=stable
 [Flatpak Preinstall org.gnome.Contacts]
 Branch=stable
 
-[Flatpak Preinstall org.gnome.DejaDup]
+[Flatpak Preinstall org.gnome.World.PikaBackup]
 Branch=stable
 
 [Flatpak Preinstall org.gnome.FileRoller]
@@ -36,9 +36,6 @@ Branch=stable
 Branch=stable
 
 [Flatpak Preinstall org.gnome.Loupe]
-Branch=stable
-
-[Flatpak Preinstall org.gnome.Maps]
 Branch=stable
 
 [Flatpak Preinstall org.gnome.NautilusPreviewer]
@@ -69,15 +66,12 @@ Branch=stable
 [Flatpak Preinstall com.github.PintaProject.Pinta]
 Branch=stable
 
-[Flatpak Preinstall com.github.rafostar.Clapper]
-Branch=stable
-
 # System Utilities
 [Flatpak Preinstall com.github.tchx84.Flatseal]
 Branch=stable
 
-[Flatpak Preinstall com.mattjakeman.ExtensionManager]
-Branch=stable
+#[Flatpak Preinstall com.mattjakeman.ExtensionManager]
+#Branch=stable
 
 [Flatpak Preinstall io.github.flattool.Warehouse]
 Branch=stable
