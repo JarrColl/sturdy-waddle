@@ -45,7 +45,7 @@ echo "::group:: Install Packages"
 
 # Install packages using dnf5
 dnf5 install -y xwayland-satellite xdg-desktop-portal-gnome gnome-keyring mate-polkit
-dnf5 install -y wl-clipboard blueman-applet brightnessctl wlogout
+dnf5 install -y wl-clipboard brightnessctl wlogout network-manager-applet blueman-applet
 dnf5 install -y mako rofi-wayland wlsunset swaybg waybar
 dnf5 install -y --setopt=install_weak_deps=False niri
 
