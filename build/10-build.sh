@@ -44,13 +44,15 @@ echo "::endgroup::"
 echo "::group:: Install Packages"
 
 # Install packages using dnf5
-dnf5 install -y xwayland-satellite xdg-desktop-portal-gnome gnome-keyring mate-polkit
-dnf5 install -y wl-clipboard blueman-applet brightnessctl wlogout
-dnf5 install -y mako rofi-wayland wlsunset swaybg waybar
-dnf5 install -y --setopt=install_weak_deps=False niri
+# dnf5 install -y xwayland-satellite xdg-desktop-portal-gnome gnome-keyring mate-polkit
+# dnf5 install -y wl-clipboard blueman-applet brightnessctl wlogout
+# dnf5 install -y mako rofi-wayland wlsunset swaybg waybar
+# dnf5 install -y --setopt=install_weak_deps=False niri
 
 # Example using COPR with isolated pattern:
-copr_install_isolated "lionheartp/Hyprland" hypridle hyprlock
+# copr_install_isolated "lionheartp/Hyprland" hypridle hyprlock
+
+
 
 echo "::endgroup::"
 
