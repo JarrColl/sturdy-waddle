@@ -52,6 +52,7 @@ echo "::group:: Install Packages"
 # Example using COPR with isolated pattern:
 # copr_install_isolated "lionheartp/Hyprland" hypridle hyprlock
 
+dnf5 install -y podman-compose docker docker-compose
 
 
 echo "::endgroup::"
