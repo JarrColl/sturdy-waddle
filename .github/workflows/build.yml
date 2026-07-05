@@ -33,9 +33,9 @@ jobs:
       matrix:
         base_image:
           - name: ""
-            image: "ghcr.io/ublue-os/bluefin:stable"
+            image: "ghcr.io/projectbluefin/bluefin:stable"
           - name: "nvidia-open"
-            image: "ghcr.io/ublue-os/bluefin-nvidia-open:stable"
+            image: "ghcr.io/projectbluefin/bluefin-nvidia:stable"
     env:
       # Add -nvidia-open to the nvidia image while leaving the regular image name qualifier free.
       IMAGE_NAME: "${{ github.event.repository.name }}${{ matrix.base_image.name != '' && format('-{0}', matrix.base_image.name) || '' }}"
